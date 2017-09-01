@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FriendFinder</title>
+
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome Glyphicons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<h2>Survey Questions</h2>
+		<hr>
+
+		<h3><strong>About You</strong></h3>
+		<h4>Name (Required)</h4>
+		<input type="text" name="" id="name" class="form-control" required >
+
+		<hr>
+
+		<h3><strong>Question 1</strong></h3>
+		<h4>You love sports.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q1">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 2</strong></h3>
+		<h4>You love drinking.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q2">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 3</strong></h3>
+		<h4>You love movies.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q3">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 4</strong></h3>
+		<h4>You love music.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q4">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 5</strong></h3>
+		<h4>You love BBQs.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q5">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 6</strong></h3>
+		<h4>You love party games.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q6">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 7</strong></h3>
+		<h4>You're great at keeping secrets.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q7">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 8</strong></h3>
+		<h4>You love big parties.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q8">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 9</strong></h3>
+		<h4>You like staying up late.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q9">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 10</strong></h3>
+		<h4>You like the nightlife.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q10">
+	 		<option></option>
+            <option value=1>1 (Strongly Disagree)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (Strongly Agree)</option>
+      	</select>
+
+		<br>
+		<br>
+
+		<!-- Submit Button -->
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+ Submit</button>
+
+		
+	
+
+<script type="text/javascript">
+
+var friendsArray = [
+
+{
+"name": "Adam Scott",
+"photo": "../assets/adam-scott.jpg",
+"scores": [
+5,
+4,
+3,
+4,
+5,
+5,
+5,
+5,
+5,
+5
+]
+},
+
+{
+"name": "Chris Pine",
+"photo": "../assets/chris-pine.jpg",
+"scores": [
+5,
+4,
+3,
+2,
+1,
+1,
+2,
+3,
+4,
+5
+]
+},
+
+{
+"name": "Danny Trejo",
+"photo": "../assets/danny-trejo.jpg",
+"scores": [
+2,
+3,
+4,
+5,
+1,
+2,
+3,
+4,
+5,
+1
+]
+},
+
+{
+"name": "Hugh Grant",
+"photo": "../assets/hugh-grant.jpg",
+"scores": [
+3,
+4,
+5,
+1,
+2,
+3,
+4,
+5,
+1,
+2
+]
+},
+
+{
+"name": "Ian McKellen",
+"photo": "../assets/ian-mckellen.jpg",
+"scores": [
+1,
+2,
+5,
+5,
+3,
+2,
+3,
+3,
+4,
+4
+]
+}, 
+
+{
+"name": "John Goodman",
+"photo": "../assets/John Goodman.jpg",
+"scores": [
+4,
+5,
+1,
+2,
+3,
+4,
+5,
+1,
+2,
+3
+]
+}, 
+
+{
+"name": "Leo DiCaprio",
+"photo": "../assets/leo-dicaprio.jpg",
+"scores": [
+3,
+1,
+1,
+4,
+5,
+3,
+3,
+5,
+5,
+1
+]
+}, 
+
+{
+"name": "Matthew McConaughey",
+"photo": "../assets/matthew-mcconaughey.jpg",
+"scores": [
+1,
+3,
+5,
+2,
+4,
+4,
+2,
+5,
+3,
+1
+]
+}, 
+
+{
+"name": "Ryan Gosling",
+"photo": "../assets/ryan-gossling.jpg",
+"scores": [
+4,
+5,
+2,
+1,
+4,
+5,
+4,
+2,
+3,
+2
+]
+}, 
+
+{
+"name": "Simon Pegg",
+"photo": "../assets/simon-pegg.jpg",
+"scores": [
+4,
+5,
+2,
+3,
+5,
+2,
+3,
+1,
+1,
+5
+]
+}
+
+
+]
+var T = 0;
+var friendsTotal = [];
+// var differenceArray = [];
+// function sortNumber(a,b)
+// {
+//   return a - b;
+// }
+
+// differenceArray = differenceArray.sort(sortNumber);
+
+for (i=0; i<friendsArray.length;i++) {
+	T = friendsArray[i].scores[0] + friendsArray[i].scores[1]+ friendsArray[i].scores[2]+ friendsArray[i].scores[4]+ friendsArray[i].scores[5]+ friendsArray[i].scores[6]+ friendsArray[i].scores[7]+ friendsArray[i].scores[8]+ friendsArray[i].scores[9];
+	friendsTotal.push(T);
+	}
+
+$("#submit").on("click", function(){
+
+var userData = {
+name: $("#name").val(),
+scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+}
+
+var u0 = parseInt(userData.scores[0]);
+var u1 = parseInt(userData.scores[1]);
+var u2 = parseInt(userData.scores[2]);
+var u3 = parseInt(userData.scores[3]); 
+var u4 = parseInt(userData.scores[4]);
+var u5 = parseInt(userData.scores[5]); 
+var u6 = parseInt(userData.scores[6]); 
+var u7 = parseInt(userData.scores[7]); 
+var u8 = parseInt(userData.scores[8]); 
+var u9 = parseInt(userData.scores[9]);
+
+var userScore = (u0 + u1 + u2 + u3 + u4 + u5 + u6 + u7 + u8 + u9);
+// var userScores = [u0, u1, u2, u3, u4, u5, u6, u7, u8, u9] 
+
+var difference = 0;
+var match = "";
+for (j=0; j<friendsTotal.length; j++) {
+	difference = Math.abs(friendsTotal[j] - userScore);
+		// differenceArray.push(difference);
+		if (difference === 0) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 1) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 2) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 3) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 4) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 5) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 6) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 7) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 8) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 9) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 10) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 11) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 12) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 13) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 14) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 15) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 16) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 17) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 18) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 19) {
+			match = friendsArray[j].name;
+			break;
+		}
+		else if (difference === 20) {
+			match = friendsArray[j].name;
+			break;
+		}
+
+	}
+
+function checkFriend () {
+
+	
+}
+
+alert(match + " is your match");
+
+
+
+
+});
+
+
+
+
+
+</script>
+
+</body>
+</html>
